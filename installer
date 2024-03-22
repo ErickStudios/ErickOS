@@ -1,3 +1,40 @@
-["// system update erickos","// paths","reset path","","// updater","// system files","set file name system","set file contain folder","create file","join in path system","set file name readme.txt","set file contain created by soyelrandom of erick studios please subscribe to erick studios","create file","set file name config","create file","set file name update.txt","set file contain update downloaded from github.com","create file","wait 1","join in path config","set file name default.config","set file contain {\"Theme\":1,\"Background\":\"oglin2\",\"StartpSound?\":\"0\"}","create file","back path","wait 1","set file name community apps","set file contain folder","create file","wait 1","reset path"]
-// you can publis your own program to add in community folder but that is comming soon
-// this json is for automitic system updates
+// system update erickos
+// paths
+reset path
+
+// updater
+
+// system folder
+set file name system
+set file contain folder
+create file
+join in path system
+
+// system folder files and folders
+
+// readme.txt
+set file name readme.txt
+set file contain created by soyelrandom of erick studios please subscribe to erick studios
+create file
+
+// configs folder
+set file name config
+set file contain folder
+create file
+
+// update.txt
+set file name update.txt
+set file contain update downloaded from github.com
+create file
+
+// continue with config folder
+wait 1
+join in path config
+
+// creating default config
+set file name default.config
+set file contain {"Theme":1,"Background":"oglin2","StartpSound?":"0"}
+create file
+
+// back to path of erickos files
+reset path
