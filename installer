@@ -1,8 +1,13 @@
 // system update erickos
+
+// created by soyelrandom of erick studios this code is code of system folders
+// this code in lima lite++ is used for update the system files in folder system
+
 // paths
 reset path
 
 // updater
+// the updater is cuted in parts
 
 // system folder
 set file name system
@@ -11,7 +16,6 @@ create file
 join in path system
 
 // system folder files and folders
-
 // readme.txt
 set file name readme.txt
 set file contain created by soyelrandom of erick studios please subscribe to erick studios
@@ -38,3 +42,5 @@ create file
 
 // back to path of erickos files
 reset path
+
+// end of script
