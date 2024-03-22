@@ -1,47 +1,36 @@
-// system update erickos
-
+// system erickos installer
 // created by soyelrandom of erick studios this code is code of system folders
 // this code in lima lite++ is used for update the system files in folder system
 // the actual system update is 0.1
-
 // paths
 reset path
-
 // updater
 // the updater is cuted in parts
-
 // system folder
 set file name system
 set file contain folder
 create file
 join in path system
-
 // system folder files and folders
 // readme.txt
 set file name readme.txt
 set file contain created by soyelrandom of erick studios please subscribe to erick studios
 create file
-
 // configs folder
 set file name config
 set file contain folder
 create file
-
 // update.txt
 set file name update.txt
 set file contain update downloaded from github.com
 create file
-
 // continue with config folder
 wait 1
 join in path config
-
 // creating default config
 set file name default.config
 set file contain {"Theme":1,"Background":"oglin2","StartpSound?":"0"}
 create file
-
 // back to path of erickos files
 reset path
-
 // end of script
